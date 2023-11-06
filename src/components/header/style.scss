@@ -1,0 +1,13 @@
+@import '../../styles/variables';
+
+.header {
+	padding: 25px 0;
+	box-shadow: 0px 4px 8px $gray;
+	background-color: $white;
+
+	&__logo {
+		font-size: 28px;
+		font-weight: 700;
+		color: $text;
+	}
+}
